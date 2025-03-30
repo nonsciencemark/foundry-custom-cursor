@@ -1,7 +1,9 @@
 var fs = require('fs');
 
-// list files in media folder ==============================================================
 function read_data() {
+    // list files in media folder 
     var files = fs.readdirSync('media');
-    return files    
+    // reading in the json
+    var cursors = require('../media/sources.json').cursors; //(with path)
+    return null
 }
