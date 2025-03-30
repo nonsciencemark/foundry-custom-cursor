@@ -7,3 +7,8 @@ function read_data() {
     var cursors = require('../media/sources.json').cursors; //(with path)
     return null
 }
+
+var path = require('path');
+var scriptName = path.basename(__filename);
+
+console.log('custom-cursor | ' + scriptName + ' loaded');

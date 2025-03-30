@@ -8,5 +8,11 @@
     }
   ],
   "version": "1",
-  "minimumCoreVersion": "0.8.8"
+  "minimumCoreVersion": "0.8.8",
+  "scripts": [
+    "scripts/read-media.js",
+    "scripts/fill-menu.js",
+    "scripts/user-select.js",
+    "scripts/modify-cursor.js"
+  ]
 }
