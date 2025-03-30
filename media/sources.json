@@ -1,6 +1,11 @@
 {
     "cursors": [
         {
+            "id": "default",
+            "title": "System Default",
+            "url": ""
+        },
+        {
             "id": "wc3gauntlet",
             "title": "Warcraft 3 Gauntlet",
             "url": "http://www.rw-designer.com/cursor-extern.php?id=204389"
